@@ -31,10 +31,10 @@
 }());
 
 
-(function() {
+(function(angular, undefined) {
     'use strict'
 
-    angular.module('StrongComponents.smoothScroll', [])
+    angular.module('StrongSmoothScroll', [])
         .factory('Utils', Utils)
         .factory('stScroller', stScroller)
         .directive('stSmoothScroll', stSmoothScroll)
@@ -343,4 +343,4 @@
             }
         }
     }
-})();
+})(window.angular);

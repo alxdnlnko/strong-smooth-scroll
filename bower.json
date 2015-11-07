@@ -1,0 +1,9 @@
+{
+  "name": "strong-smooth-scroll",
+  "version": "0.0.1",
+  "main": "./strong-smooth-scroll.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": ">=1.2.0"
+  }
+}
