@@ -51,7 +51,7 @@ Basic example:
 
 ##### st-scroll-if
 
-Scrolling trigger condition expression. If provided, scrolling starts when given expression evaluates to `true`. If not provided, scrolling starts immediatelly after app bootstrap.
+Scrolling trigger condition expression. If provided, scrolling starts when given expression evaluates to `true`. If not provided, scrolling starts immediatelly after app bootstrap.  
 Value: expression.
 
 Examples:
@@ -67,8 +67,8 @@ Examples:
 
 ##### st-scroll-duration
 
-Smooth scroll animation duration.
-Value: expression.
+Smooth scroll animation duration.  
+Value: expression.  
 Default: 500.
 
 Examples:
@@ -82,8 +82,8 @@ Examples:
 
 ##### st-scroll-delay
 
-Scroll start delay time.
-Value: expression.
+Scroll start delay time.  
+Value: expression.  
 Default: 0.
 
 ```html
@@ -95,8 +95,8 @@ Default: 0.
 
 ##### st-scroll-offset
 
-Element top offset after scrolling.
-Value: expression.
+Element top offset after scrolling.  
+Value: expression.  
 Default: 100.
 
 Examples:
@@ -110,9 +110,9 @@ Examples:
 
 ##### st-scroll-easing
 
-Easing function for smooth scrolling animation.
-Value: string.
-Options: easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint
+Easing function for smooth scrolling animation.  
+Value: string.  
+Options: easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint.  
 Default: easeInOutCubic.
 
 Examples:
@@ -124,8 +124,8 @@ Examples:
 
 ##### st-scroll-cancel-on-bounds
 
-If `true`, scrolling animation will be cancelled, when page bounds are reached.
-Value: expression.
+If `true`, scrolling animation will be cancelled, when page bounds are reached.  
+Value: expression.  
 Default: `true`.
 
 Examples:
@@ -139,7 +139,7 @@ Examples:
 
 ##### st-scroll-after
 
-Smooth scroll animation finished callback.
+Smooth scroll animation finished callback.  
 Value: expression.
 
 Examples:
